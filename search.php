@@ -69,5 +69,3 @@ foreach ($results as $result) {
   $result['text'] = str_replace(PHP_EOL, '', $result['text']);
   echo "{$result['id_str']}\t{$date}\t{$result['from_user']}\t\t{$result['text']}" . PHP_EOL;
 }
-
-?>

@@ -57,5 +57,3 @@ if ($code == 200) {
 } else {
   tmhUtilities::pr($tmhOAuth->response['response']);
 }
-
-?>

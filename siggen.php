@@ -81,4 +81,3 @@ echo 'Signing Key:' . $tmhOAuth->signing_key;
 echo PHP_EOL;
 echo 'Auth Header:' . $tmhOAuth->auth_header;
 echo PHP_EOL;
-?>

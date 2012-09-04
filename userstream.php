@@ -47,4 +47,3 @@ $tmhOAuth->streaming_request('POST', $method, $params, 'my_streaming_callback', 
 
 // output any response we get back AFTER the Stream has stopped -- or errors
 tmhUtilities::pr($tmhOAuth);
-?>

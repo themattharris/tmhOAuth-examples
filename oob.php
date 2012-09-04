@@ -87,5 +87,3 @@ welcome();
 request_token($tmhOAuth);
 $pin = tmhUtilities::read_input('What was the Pin Code?: ');
 access_token($tmhOAuth, $pin);
-
-?>

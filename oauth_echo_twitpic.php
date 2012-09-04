@@ -104,5 +104,3 @@ function make_request($tmhOAuth, $url, $params, $auth, $multipart) {
   $code = $tmhOAuth->request('POST', $url, $params, $auth, $multipart);
   return $code;
 }
-
-?>

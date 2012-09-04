@@ -91,5 +91,3 @@ for ($i=0; $i < $paging ; $i++) {
 
 }
 var_dump($users);
-
-?>

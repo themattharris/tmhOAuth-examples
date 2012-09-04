@@ -55,5 +55,3 @@ if ($code == 200 && $tmhOAuth->response['info']['ssl_verify_result'] === 0) {
   else
     echo 'The HTTP response code was: ' . $code . PHP_EOL;
 }
-
-?>

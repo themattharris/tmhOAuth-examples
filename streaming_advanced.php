@@ -91,5 +91,4 @@ $raw = in_array($raw, $true);
 $tmhOAuth->streaming_request('POST', $method, $params, 'my_streaming_callback');
 if ($debug)
   var_dump($tmhOAuth);
-?>
 
