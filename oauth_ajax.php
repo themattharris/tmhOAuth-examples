@@ -8,7 +8,7 @@
  * You must define APP_URL as your Web app's root URL (the URL users will be redirected to after authentication).
  * A gist of the Javascript to use in your Web app can be found here: https://gist.github.com/3215194
  *
- * An example of an open source Web app that uses this micro-library for authentication is Tampon: 
+ * A real-world example of an open source Web app that uses this micro-library for authentication is Tampon: 
  * http://github.com/julien-c/Tampon
  * 
  * Instructions:
