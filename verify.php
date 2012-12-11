@@ -33,7 +33,7 @@ $tmhOAuth = new tmhOAuth(array(
 $code = $tmhOAuth->request('GET', $tmhOAuth->url('1/account/verify_credentials'));
 
 if ($code == 200) {
-  echo 'The access level of this token is: ' . $tmhOAuth->response['headers']['x_access_level'] . PHP_EOL;
+  echo 'The access level of this token is: ' . $tmhOAuth->response['headers']['X-Access-Level'] . PHP_EOL;
   tmhUtilities::pr($tmhOAuth->response);
 } else {
   tmhUtilities::pr(htmlentities($tmhOAuth->response['response']));
