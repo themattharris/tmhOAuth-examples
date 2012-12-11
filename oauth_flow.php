@@ -106,7 +106,7 @@ function verify_credentials($tmhOAuth) {
   if ($code == 200) {
     $resp = json_decode($tmhOAuth->response['response']);
     echo '<h1>Hello ' . $resp->screen_name . '</h1>';
-    echo '<p>The access level of this token is: ' . $tmhOAuth->response['headers']['x_access_level'] . '</p>';
+    echo '<p>The access level of this token is: ' . $tmhOAuth->response['headers']['X-Access-Level'] . '</p>';
   } else {
     outputError($tmhOAuth);
   }
