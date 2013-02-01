@@ -35,8 +35,8 @@ $tmhOAuth = new tmhOAuth(array(
 
 function check_rate_limit($response) {
   $headers = $response['headers'];
-  if ($headers['x_ratelimit_remaining'] == 0) :
-    $reset = $headers['x_ratelimit_reset'];
+  if ($headers['X-RateLimit-Remaining'] == 0) :
+    $reset = $headers['X-RateLimit-Reset'];
     $sleep = time() - $reset;
     echo 'rate limited. reset time is ' . $reset . PHP_EOL;
     echo 'sleeping for ' . $sleep . ' seconds';
