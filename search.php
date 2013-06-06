@@ -26,7 +26,7 @@ $pages = intval($p['pages']);
 $pages = $pages > 0 ? $pages : 1;
 $results = array();
 
-for ($i=1; $i < $pages; $i++) {
+for ($i=1; $i <= $pages; $i++) {
   $args = array_intersect_key(
     $p, array(
       'q'        => '',
