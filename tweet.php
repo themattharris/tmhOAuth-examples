@@ -29,7 +29,7 @@ $tmhOAuth = new tmhOAuth(array(
   'user_secret'     => 'A_USER_SECRET',
 ));
 
-$code = $tmhOAuth->request('POST', $tmhOAuth->url('1/statuses/update'), array(
+$code = $tmhOAuth->request('POST', $tmhOAuth->url('1.1/statuses/update'), array(
   'status' => 'My Twitter Message'
 ));
 
